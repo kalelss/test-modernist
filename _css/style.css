@@ -74,6 +74,7 @@ header {
 
 .text-info p {
     padding: 25px 0px;
+    text-align: justify;
     line-height: 1.5;
     font-size: 0.75em;
     color: #979797;
@@ -89,8 +90,8 @@ header {
 }
 
 .gradient {
-    height: 150px;
-    /* background-image: linear-gradient(180deg,#290000, #660000); */
+    height: 80px;
+    background-image: linear-gradient(180deg,#290000, #660000);
 }
 
 .img-circulo {
@@ -100,4 +101,58 @@ header {
     border-radius: 190px;
     border: 20px solid #6b6b6b;
     background-image: url('../_images/imagem.jpg');
+}
+
+.corpo {
+    background-color: #660000;
+}
+
+.info-box {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.info-box a {
+    text-decoration: none;
+}
+
+.info-box img {
+    width: 120px;
+}
+
+.box-corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box-corpo:hover{
+    background-color: #76c38f;
+}
+
+.box-corpo:hover h1, .box-corpo:hover p{
+    color: white;
+    text-shadow: 0px 1px 1px #7a7a7a;
+}
+
+.box-corpo h1 {
+    color: #333333;
+    font-size: 2em;
+    font-weight: 150;
+    text-shadow: 1px 1px 1px #7a7a7a;
+    padding: 10px 0px;
+}
+
+.box-corpo p {
+    color: #979797;
+    font-size: 0.75em;
+    
 }
