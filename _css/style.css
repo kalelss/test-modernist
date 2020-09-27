@@ -17,20 +17,21 @@ header {
     max-width: 960px;
     margin: 0 auto;
     padding-top: 50px;
-    align-items: center;
     color: white;
 }
 
 .logo h1 {
     font-size: 1.75em;
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    color: white;
     text-shadow: 1px 1px 1px black;
 }
+
 .logo p {
     font-size: 0.6875em;
     color: #979797;
 }
+
 .menu ul {
     display: flex;
     list-style: none;
@@ -59,7 +60,6 @@ header {
 
 .text-info {
     flex: 2;
-
 }
 
 .img-banner {
@@ -138,7 +138,8 @@ header {
     background-color: #76c38f;
 }
 
-.box-corpo:hover h1, .box-corpo:hover p{
+.box-corpo:hover h1,
+.box-corpo:hover p{
     color: white;
     text-shadow: 0px 1px 1px #7a7a7a;
 }
@@ -156,31 +157,15 @@ header {
     font-size: 0.75em;
     
 }
-/* .div-bg {
-    display: flex;
-    justify-content: center;
-    
-}
 
-.divisoria h1 {
-    background-color: #303030;
-    font-size: 2em;
-    color: white;
-    text-align: center;
-    padding: 8px 15px;
-    font-weight: normal;
-    border-radius: 15px;
-    
-} */
-
-.titulo {
+.div-bg {
     margin: 0 auto;
-    height: 3px;
+    height: 4px;
     background-color: #303030;
     text-align: center;
     max-width: 942px;
 }
-.titulo span {
+.div-bg span {
     color: white;
     padding: 8px 15px;
     font-size: 2em;
