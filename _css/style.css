@@ -5,6 +5,11 @@
     font-family: Georgia, Times, serif;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     background-color: #290000;
     border-top: 10px solid #76c38f;
@@ -52,18 +57,62 @@ header {
 }
 
 .banner {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;   
     align-items: center;
-    padding: 50px 50px;
+    margin-top: 50px;
+}
+
+.flex-1 {
+    flex: 1;
+    margin-right: 3px;
+}
+.banner img {
+    width: 100%;
+}
+.div-banner1 {
+    width: 170px;
+    height: 230px;
+    background-image: url('../_images/banner/Sem-Título-1_01.png');
+    background-position: center;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.div-banner2 {
+    width: 170px;
+    height: 340px;
+    background-image: url('../_images/banner/Sem-Título-1_02.png');
+    background-position: center;
+    border-radius: 10px;
+    background-color: green;
+}
+.div-banner3 {
+    width: 170px;
+    height: 450px;
+    background-image: url('../_images/banner/Sem-Título-1_03.png');
+    background-position: center;
+    border-radius: 10px;
+    background-color: green;
+}
+.div-banner4 {
+    width: 170px;
+    height: 340px;
+    background-image: url('../_images/banner/Sem-Título-1_04.png');
+    background-position: center;
+    border-radius: 10px;
+    background-color: green;
+}
+.div-banner5 {
+    width: 170px;
+    height: 230px;
+    background-image: url('../_images/banner/Sem-Título-1_05.png');
+    background-position: center;
+    border-radius: 10px;
+    background-color: green;
 }
 
 .text-info {
     flex: 2;
-}
-
-.img-banner {
-    flex: 1;
 }
 
 .text-info h1 {
@@ -90,7 +139,7 @@ header {
 }
 
 .gradient {
-    height: 80px;
+    height: 200px;
     background-image: linear-gradient(180deg,#290000, #660000);
 }
 
