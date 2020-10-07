@@ -392,3 +392,22 @@ header {
     background-color: #76c38f;
 }
 
+footer {
+    background-color: #2b2b2b;
+}
+
+.rodape {
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    color: #979797;
+    justify-content: space-between;
+    align-items: center;
+}
