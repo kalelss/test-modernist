@@ -1,0 +1,21 @@
+.menu a:hover {
+    background-color: #76c38f;
+}
+
+.box-corpo:hover{
+    background-color: #76c38f;
+}
+
+.box-corpo:hover h1,
+.box-corpo:hover p{
+    color: white;
+    text-shadow: 0px 1px 1px #7a7a7a;
+}
+
+.grid-container .item1:hover {
+    border: 5px solid #76c38f;
+}
+
+.grid-container .item1:hover .legenda {
+    display: none;
+}
